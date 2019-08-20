@@ -1,0 +1,79 @@
+{
+  "title": "pamina",
+  "description": "pamina构建工具说明文档",
+  "author": "pingan",
+  "language": "zh-hans",
+  "gitbook": ">=3.0.0",
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins": [
+    "-sharing",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "github",
+    "splitter",
+    "expandable-chapters-small",
+    "anchor-navigation-ex",
+    "alerts",
+    "advanced-emoji",
+    "local-video",
+    "theme-custom",
+    "favicon",
+    "copy-code-button"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "float": {
+          "showLevelIcon": true,
+          "level1Icon": "fa fa-hand-o-right",
+          "level2Icon": "fa fa-hand-o-right",
+          "level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "theme-custom": {
+      "sidebar": true,
+      "navbar": {
+        "showLevel": false,
+        "brand": {
+            "url": "https://github.com",
+            "logo": {
+                "alt": "图片信息",
+                "path": "assets/cml-logo.png"
+            }
+        },
+        "nav": [
+            {
+              "text": "快速上手",
+              "url": "_book/quick_start/index.html",
+              "part": "quick_start"
+            },
+            {
+              "text": "框架",
+              "url": "_book/frameWork/index.html",
+              "part": "framework"
+            },
+            {
+              "text": "组件",
+              "url": "_book/component/index.html",
+              "part": "component"
+            },
+            {
+              "text": "API",
+              "url": "_book/api/index.html",
+              "part": "api"
+            }
+        ]
+      }
+    },
+    "favicon": {
+      "shortcut": "assets/favicon.ico",
+      "bookmark": "assets/favicon.ico"
+    }
+  }
+}
