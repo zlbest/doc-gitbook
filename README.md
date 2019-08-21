@@ -2,7 +2,6 @@
 
 **Chameleon**/kəˈmiːlɪən/，简写`CML`，中文名`卡梅龙`；中文意思`变色龙`，意味着就像变色龙一样能适应不同环境的跨端整体解决方案。
 
-[快速开始](quick_start/README.md "quick_start")
 
 ## 背景
 研发同学在端内既追求h5的灵活性，也要追求性能趋近于原生。
@@ -18,7 +17,7 @@ Chameleon 希望既能用一套代码完成所有端需求，将相同的业务�
 
 虽然不同各端环境千变万化，但万变不离其宗的是 [MVVM](https://zh.wikipedia.org/zh-hans/MVVM) 架构思想，**Chameleon 目标是让MVVM跨端环境大统一**。
 
-![Alt text](./assets/mvvm.png)
+![Alt text](/assets/cml-logo.png)
 
 ### 可维护性问题
 
