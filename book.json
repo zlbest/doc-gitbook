@@ -1,7 +1,7 @@
 {
-  "title": "pamina",
-  "description": "pamina构建工具说明文档",
-  "author": "pingan",
+  "title": "gitbook",
+  "description": "gitbook构建文档网站",
+  "author": "zh",
   "language": "zh-hans",
   "gitbook": ">=3.0.0",
   "root": ".",
