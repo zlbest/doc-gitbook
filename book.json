@@ -8,10 +8,14 @@
   "styles": {
     "website": "styles/website.css"
   },
+  "structure": {
+    "readme": "introduction.md"
+  },
   "plugins": [
     "-sharing",
     "-lunr",
     "-search",
+    "-livereload",
     "search-plus",
     "github",
     "splitter",
@@ -22,7 +26,7 @@
     "local-video",
     "theme-custom",
     "favicon",
-    "copy-code-button"
+    "code"
   ],
   "pluginsConfig": {
     "github": {

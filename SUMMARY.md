@@ -2,7 +2,7 @@
 
 ### quick_start
 
-* [介绍](README.md)
+* [介绍](introduction.md)
 * [快速开始](quick_start/README.md)
   * [章节1](quick_start/chapter1.md)
   * [章节2](quick_start/chapter2.md)

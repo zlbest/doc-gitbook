@@ -9,6 +9,6 @@
 img {
   height: auto;
 }
-/* .book-summary ul.summary li {
-  display: block !important;
-} */
+.code-wrapper pre > code > span.code-line:before {
+  display: none !important;
+}
